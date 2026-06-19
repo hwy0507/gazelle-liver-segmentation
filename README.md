@@ -1,6 +1,6 @@
 # Gazelle Liver Segmentation
 
-This repository contains a teacher-student pipeline for 3D liver segmentation and reconstruction from medical CT volumes. The project was developed for the China College Students' Integrated Circuit Innovation and Entrepreneurship Competition, commonly referred to as the China College IC Competition.
+This repository contains a teacher-student pipeline for 3D liver segmentation and reconstruction from medical CT volumes. The project was developed for the 2026 China College Students' Integrated Circuit Innovation and Entrepreneurship Competition, commonly referred to as the China College IC Competition.
 
 The core idea is to first train a 3D U-Net teacher model for volumetric organ segmentation, then distill its predictions into a compact Gazelle-oriented student model with low-bit quantized linear layers. The student model is used to reconstruct a 3D liver mask and export deployment-friendly parameters.
 
